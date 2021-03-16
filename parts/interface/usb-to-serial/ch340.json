@@ -1,0 +1,157 @@
+{
+  "name" : "CH340",
+  "mfg" : "WCH",
+  "cat" : "Interface IC",
+  "subcat" : "USB to Serial Converter",
+  "description" : "Popular USB to Serial Converter IC, supports up to 115200 bps",
+  "datasheet" : "https://datasheet.lcsc.com/szlcsc/2008191806_WCH-Jiangsu-Qin-Heng-CH340G_C14267.pdf",
+  "variantcode" : "[name][package]",
+  "packages" : {
+    "B": {
+      "package" : "SOP-16",
+      "pincount" : 16,
+      "subdesc" : "Serial, full handshake, Reset, and Status",
+      "pinout" : {
+        "1" : "GND",
+        "2" : "TXD",
+        "3" : "RXD",
+        "4" : "V3",
+        "5" : "UD+",
+        "6" : "UD-",
+        "7" : "RST#",
+        "8" : "NC",
+        "9" : "CTS#",
+        "10" : "DSR#",
+        "11" : "RI#",
+        "12" : "DCD#",
+        "13" : "DTR#",
+        "14" : "RTS#",
+        "15" : "TNOW",
+        "16" : "VCC"
+      }
+    },
+    "C": {
+      "package" : "SOP-16",
+      "pincount" : 16,
+      "subdesc" : "CH340G alternative with internal crystal and output",
+      "pinout" : {
+        "1" : "GND",
+        "2" : "TXD",
+        "3" : "RXD",
+        "4" : "V3",
+        "5" : "UD+",
+        "6" : "UD-",
+        "7" : "NC",
+        "8" : "OUT#",
+        "9" : "CTS#",
+        "10" : "DSR#",
+        "11" : "RI#",
+        "12" : "DCD#",
+        "13" : "DTR#",
+        "14" : "RTS#",
+        "15" : "R232",
+        "16" : "VCC"
+      }
+    },
+    "E": {
+      "package" : "MSOP-10",
+      "pincount" : 10,
+      "subdesc" : "Serial, RTS, CTS, and Status",
+      "pinout" : {
+        "1" : "UD+",
+        "2" : "UD-",
+        "3" : "GND",
+        "4" : "RTS#",
+        "5" : "CTS#",
+        "6" : "TNOW",
+        "7" : "VCC",
+        "8" : "TXD",
+        "9" : "RXD",
+        "10" : "V3"
+      }
+    },
+    "G": {
+      "package" : "SOP-16",
+      "pincount" : 16,
+      "subdesc" : "Serial, full handshake, and RS232 Enable",
+      "pinout" : {
+        "1" : "GND",
+        "2" : "TXD",
+        "3" : "RXD",
+        "4" : "V3",
+        "5" : "UD+",
+        "6" : "UD-",
+        "7" : "XI",
+        "8" : "XO",
+        "9" : "CTS#",
+        "10" : "DSR#",
+        "11" : "RI#",
+        "12" : "DCD#",
+        "13" : "DTR#",
+        "14" : "RTS#",
+        "15" : "R232",
+        "16" : "VCC"
+      }
+    },
+    "K": {
+      "package" : "ESSOP-10",
+      "pincount" : 11,
+      "subdesc" : "Serial, DTR, CTS, and RTS",
+      "pinout" : {
+        "1" : "UD+",
+        "2" : "UD-",
+        "3" : "GND",
+        "4" : "DTR#",
+        "5" : "CTS#",
+        "6" : "RTS#",
+        "7" : "VCC",
+        "8" : "TXD",
+        "9" : "RXD",
+        "10" : "VCC",
+        "11" : "GND"
+      }
+    },
+    "N": {
+      "package" : "SOP-8",
+      "pincount" : 8,
+      "subdesc" : "Serial and RTS",
+      "pinout" : {
+        "1" : "UD+",
+        "2" : "UD-",
+        "3" : "GND",
+        "4" : "RTS#",
+        "5" : "VCC",
+        "6" : "TXD",
+        "7" : "RXD",
+        "8" : "V3"
+      }
+    },
+    "T": {
+      "package" : "SSOP-20",
+      "pincount" : 20,
+      "subdesc" : "Serial, full handshake, and many more features (check datasheet)",
+      "pinout" : {
+        "1" : "CKO",
+        "2" : "ACT#",
+        "3" : "TXD",
+        "4" : "RXD",
+        "5" : "V3",
+        "6" : "UD+",
+        "7" : "UD-",
+        "8" : "GND",
+        "9" : "XI",
+        "10" : "XO",
+        "11" : "CTS#",
+        "12" : "DSR#",
+        "13" : "RI#",
+        "14" : "DCD#",
+        "15" : "DTR#",
+        "16" : "RTS#",
+        "17" : "TNOW",
+        "18" : "R232",
+        "19" : "VCC",
+        "20" : "NOS#"
+      }
+    }
+  }
+}
